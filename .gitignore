@@ -192,3 +192,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# MongoDB additions
+*.ns
+*.0
+*.1
+*.2
+*.3
+/data/db/
+
+# Environment 
+.env
+.env.local
