@@ -61,6 +61,16 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Database files
+db.sqlite3
+db.sqlite3-journal
+*.ns
+*.0
+*.1
+*.2
+*.3
+/data/db/
+
 # Flask stuff:
 instance/
 .webassets-cache
@@ -193,14 +203,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# MongoDB additions
-*.ns
-*.0
-*.1
-*.2
-*.3
-/data/db/
 
-# Environment 
-.env
-.env.local
